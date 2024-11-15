@@ -1,0 +1,131 @@
+:root {
+	--boilermaker-gold: #cfb991;
+	--aged-gold: #8e6f3e;
+	--rush-gold: #daaa00;
+	--field-gold: #ddb945;
+	--dust-gold: #ebd99f;
+
+	--steel-gray: #555960;
+	--cool-gray: #6f727b;
+	--railway-gray: #9d9795;
+	--stream-gray: #c4bfc0;
+}
+
+:root, html, body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto', 'Courier New', Courier, monospace;
+	line-height: 1.6;
+}
+
+h1 {font-size: calc(1rem * pow(1.2, 6)); line-height: 2;}
+h2 {font-size: calc(1rem * pow(1.2, 5)); line-height: 2;}
+h3 {font-size: calc(1rem * pow(1.2, 4)); line-height: 1.4;}
+h4 {font-size: calc(1rem * pow(1.2, 3));}
+h5 {font-size: calc(1rem * pow(1.2, 2));}
+h6 {font-size: calc(1rem * pow(1.2, 1));}
+p  {font-size: calc(1rem * pow(1.2, 0));}
+
+a { text-decoration: none; }
+
+header, footer {
+	background-color: var(--rush-gold);
+}
+
+header > p {
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+@keyframes fade-in {
+	0% {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+
+.floating-title {
+	position: absolute;
+	font-size: 8vw;
+	top: 15%;
+	left: 0;
+	font-style: italic;
+	font-weight: lighter;
+
+	animation: fade-in ease-in-out 0.7s;
+}
+
+footer {
+	margin-top: 3rem;
+}
+
+.background-img {
+	/* min-width: 100%; */
+	/* min-height: 90%; */
+	width: 100%;
+	height: auto;
+}
+
+.accessibility-modal {
+	background-color: white;
+	position: absolute;
+	padding: 1em;
+	border: 2px solid black;
+	transform: translateX(-100%);
+	transition: all ease-in-out 0.2s;
+}
+
+.accessibility-modal:focus-within {
+	transform: translateX(0);
+}
+
+.content-wrapper {
+	max-width: 975px;
+	margin: auto;
+}
+
+.flex-gallery {
+	padding-left: 0;
+	list-style-type: none;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem 2rem;
+}
+
+.flex-gallery > li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+}
+
+.flex-gallery > li > img {
+	aspect-ratio: 1/1;
+	width: 12rem;
+}
+
+.flex-gallery.icon > li > img {
+	width: 6rem;
+}
+
+.flex-gallery.round > li > img {
+	border-radius: 50%;
+}
+
+.flex-gallery > li > p:first-of-type {
+	/* Appearance of <h5> */
+	font-size: calc(1rem * pow(1.2, 2));
+	font-weight: bold;
+}
