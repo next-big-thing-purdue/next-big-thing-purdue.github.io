@@ -1,4 +1,4 @@
-:root {
+html {
 	--boilermaker-gold: #cfb991;
 	--aged-gold: #8e6f3e;
 	--rush-gold: #daaa00;
@@ -9,6 +9,8 @@
 	--cool-gray: #6f727b;
 	--railway-gray: #9d9795;
 	--stream-gray: #c4bfc0;
+	
+	scroll-behavior: smooth;
 }
 
 :root, html, body {
@@ -64,6 +66,62 @@ header > p {
 
 	animation: fade-in ease-in-out 0.7s;
 }
+
+@keyframes scroll-ind-1 {
+	0% {
+		transform: translateY(-30px);
+		opacity: 0;
+	}
+
+	50% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	
+	100% {
+		transform: translateY(0px);
+		opacity: 0;
+	}
+}
+
+@media (max-aspect-ratio: 1/1) {
+	.scroll-indicator {
+		opacity: 0;
+	}
+}
+.scroll-indicator {
+	display: grid;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+	height: 60px;
+
+	grid-template-rows: 25% 25% 25% 25%;
+	transition: all linear 1s;
+}
+
+.scroll-indicator.invisible {
+	opacity: 0;
+}
+
+.scroll-indicator > * {
+	width: 48px;
+	height: 48px;
+	animation: infinite scroll-ind-1 3.33s;
+	opacity: 0;
+}
+
+.scroll-indicator > *.scrolled {
+	animation-iteration-count: 0;
+}
+
+.scroll-indicator :nth-child(3) { grid-row: 1/1/2/1; animation-delay: 0.333s; }
+.scroll-indicator :nth-child(2) { grid-row: 2/1/3/1; animation-delay: 0.667s; }
+.scroll-indicator :nth-child(1) { grid-row: 3/1/4/1; animation-delay: 1s; }
 
 footer {
 	margin-top: 3rem;
