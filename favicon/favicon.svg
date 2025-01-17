@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="release/dark/256.png"
+   inkscape:export-xdpi="512"
+   inkscape:export-ydpi="512"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="nxbt-light.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="16"
+     inkscape:cx="20.53125"
+     inkscape:cy="22.1875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#1a1a1a00" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-style:italic;font-weight:500;font-size:7.17384px;line-height:0.75;font-family:'Roboto Mono Medium for Powerline';-inkscape-font-specification:'Roboto Mono Medium for Powerline Medium';text-align:center;letter-spacing:-0.264583px;text-anchor:middle;fill:#1a1a1a;stroke-width:0.597819"
+       d="M 5.7157196,6.321559 H 4.8267645 L 3.7097732,3.1120199 3.0295294,6.321559 H 2.1096541 L 3.0875047,1.6993148 h 0.896685 L 5.089586,4.89933 5.7775599,1.6993148 H 6.6935701 Z M 8.8868402,3.4167832 10.262788,1.6993148 h 1.109261 L 9.3506429,4.0231354 10.486959,6.321559 H 9.4704586 L 8.7245094,4.575519 6.987121,6.0024408 6.9373118,6.0818516 8.4586061,3.9679112 7.552776,1.9214826 8.0430897,2.2255016 Z"
+       id="text1"
+       aria-label="NX&#10;"
+       sodipodi:nodetypes="cccccccccccccccccccccccc" />
+    <path
+       style="font-style:italic;font-weight:500;font-size:7.2011px;line-height:0.75;font-family:'Roboto Mono Medium for Powerline';-inkscape-font-specification:'Roboto Mono Medium for Powerline Medium';text-align:center;letter-spacing:-0.527515px;text-anchor:middle;fill:#1a1a1a;stroke-width:0.60009"
+       d="m 1.5537621,12.235269 0.889589,-5.1195323 1.540079,0.00352 q 0.3094222,0.00703 0.5977475,0.09142 0.2883253,0.080872 0.5028112,0.2461314 0.2144859,0.1617434 0.3305192,0.4149071 0.1195495,0.2531637 0.09142,0.6012637 Q 5.4883474,8.6839449 5.4074757,8.8562369 5.3301201,9.0285288 5.2035383,9.1656591 5.0804726,9.2992733 4.915213,9.4047581 4.7534696,9.510243 4.5706291,9.5875986 q 0.1793243,0.066807 0.3094223,0.1828404 0.130098,0.1160333 0.2109697,0.267228 0.080872,0.147679 0.1125172,0.323487 0.035162,0.172292 0.024613,0.355133 -0.028129,0.383261 -0.2004212,0.671587 -0.1687758,0.284809 -0.4360041,0.474681 -0.2637121,0.189873 -0.5977475,0.28481 -0.3340354,0.09142 -0.6891678,0.0879 z m 1.2306567,-2.3206674 -0.2848091,1.6314994 0.8509112,0.007 q 0.1933889,-0.0035 0.3727132,-0.05978 Q 3.9025584,11.4371 4.0432048,11.331615 4.1873675,11.22613 4.2823039,11.071419 4.3807564,10.916708 4.4088857,10.716287 4.4299827,10.543995 4.394821,10.399832 4.3631756,10.255669 4.2787877,10.153701 4.1943998,10.048216 4.0607856,9.988441 3.9271715,9.9251501 3.7548795,9.9181178 Z m 0.109001,-0.6434576 0.7454264,0.00703 Q 3.8181705,9.2746601 3.9904624,9.22895 4.1662705,9.1797238 4.306917,9.0847874 4.4475635,8.989851 4.5424998,8.8492045 4.6409524,8.7050419 4.6690817,8.511653 4.6936948,8.3323287 4.6479847,8.2057469 4.6022746,8.0756489 4.5038221,7.991261 4.4053695,7.9068731 4.264723,7.8646792 4.1275927,7.8224852 3.9658493,7.8154529 L 3.1500997,7.8119367 Z M 9.5423915,7.8119367 H 8.0198933 L 7.25337,12.235269 H 6.4341042 L 7.2006275,7.8119367 H 5.6851617 l 0.1230657,-0.6962 h 3.8572297 z"
+       id="text1-5"
+       aria-label="BT"
+       transform="scale(1.1075851,0.90286518)" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:#daaa00;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-rule:nonzero"
+       d="M 7.1669054,1.6993147 H 8.183406 l 0.9646846,2.3519451 v 0 L 7.3137762,6.3215588 H 6.20065 L 8.2684368,3.959643 Z"
+       id="path3"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+</svg>
